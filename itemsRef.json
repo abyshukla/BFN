@@ -1,0 +1,21 @@
+{
+    "milk": {
+        "Cow Milk": 21,
+        "Full Cream Milk": 26,
+        "Toned Milk": 21,
+        "Full Toned Milk": 18
+    },
+    "bread": {
+        "Brown Bread": 27,
+        "Atta Bread": 30,
+        "Sandwich Bread": 27,
+        "White Bread": 20,
+        "Multi-grain Bread": 50
+    },
+    "eggs": 6,
+    "butter": {
+        "Butter (10g)": 6,
+        "Butter (100g)": 46,
+        "Butter (500g)": 225
+    }
+}

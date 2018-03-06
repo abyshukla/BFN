@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai|Croissant+One");
+body {
+    background: url('../res/Hand-drawn-banner.svg');
+    font-family: 'Arima Madurai';
+}
+
+.mdl-button {
+    font-family: 'Arima Madurai';
+}
+
+.buttonLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#wytEggDozn {
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Croissant One';
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Arima Madurai';
+    text-align: center;
+}
+
+.mdl-data-table {
+    margin: 0 auto 0 auto;
+    font-size: 18px;
+}
+
+.mdl-data-table th {
+    font-size: inherit;
+}
+
+.mdl-tabs__tab {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mdl-tabs__tab-bar {
+    background-color: white;
+}
+
+.mdl-cell {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media(min-width:521px) {
+    .buttonSize {
+        width: 22px;
+        height: auto;
+    }
+}
+
+@media (max-width:520px) and (min-width:380px) {
+    h1 {
+        font-size: 45px;
+        margin: 5px 0;
+    }
+    h3 {
+        font-size: 25px;
+        margin: 5px 0;
+    }
+    .buttonSize {
+        width: 22px;
+        height: auto;
+    }
+}
+
+@media (max-width:379px) {
+    h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+    h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+    .buttonSize {
+        width: 22px;
+        height: auto;
+    }
+}
+
+.page-content {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-self: center;
+    background-color: white;
+}
+
+.grid-header {
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mdl-tabs__panel.is-active {
+    display: block
+}
+
+.mdl-mini-footer {
+    padding: 10px 16px;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+}
