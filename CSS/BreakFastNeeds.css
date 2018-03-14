@@ -55,6 +55,12 @@ h3 {
     align-items: center;
 }
 
+.cartRow {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
 @media(min-width:521px) {
     .buttonSize {
         width: 22px;

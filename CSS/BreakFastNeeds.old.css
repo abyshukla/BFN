@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai|Crafty+Girls|Grand+Hotel");
+html {
+    background-color: #eaeaec;
+    /* display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center; */
+}
+
+#header {
+    background-color: #5e2009;
+    max-width: 570px;
+    min-width: 570px;
+    margin: -35px auto 0 auto;
+    padding: 10px 20px 0px 0px;
+}
+
+#container {
+    background-color: #483233;
+    max-width: 570px;
+    min-width: 570px;
+    max-height: 100%;
+    margin: -20px auto 0 auto;
+    padding-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Crafty Girls";
+    font-size: 50px;
+    color: #eaeaec;
+}
+
+h2 {
+    text-align: right;
+    font-family: "Arima Madurai";
+    color: #eaeaec;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 2px;
+    font-family: 'Arima Madurai';
+    font-size: 20px;
+}
+
+li:hover,
+img:hover {
+    cursor: pointer;
+}
+
+ul {
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Arima Madurai";
+    font-weight: bold;
+    color: #483233;
+}
+
+.content {
+    background-color: #d3c9c2;
+    color: #483233;
+    margin: 5px auto auto auto;
+    padding: 20px;
+    width: 470px;
+    font-family: "Arima Madurai";
+    font-size: 18px;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+}
+
+.tabs {
+    padding: 10px 30px 5px 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #aa8c77;
+}
+
+.active {
+    background-color: #d3c9c2;
+}
+
+
+/* input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    width: 55px;
+    text-align: center;
+    padding: 0;
+    -moz-appearance: textfield;
+}
+
+input {
+    border: 0;
+    background: none;
+    color: #483233;
+    width: 25px;
+    font-family: 'Arima Madurai';
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.testRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 420px;
+    align-items: center;
+    /* border-bottom: solid 1px #aa8c77; */
+    margin-bottom: 20px;
+}
+
+.inputForm {
+    /* border: 1px solid #aaa1a1; */
+    width: 100px;
+    /* height: 25px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+    flex-wrap: nowrap;
+}
+
+.brandRow {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px 0 20px;
+    /* flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 350px;
+    border-bottom: solid 1px #aa8c77;
+    margin-bottom: 20px; */
+}
+
+.priceRow {
+    display: flex;
+    width: 35px;
+    justify-content: space-between;
+}
+
+.itemWidth {
+    width: 120px;
+}
+
+.imgButton {
+    width: 25px;
+}

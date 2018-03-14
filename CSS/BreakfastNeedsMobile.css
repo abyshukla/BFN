@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai|Crafty+Girls|Grand+Hotel");
+html {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcd80;
+    max-width: 570px;
+    min-width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Crafty Girls';
+    text-align: center;
+}
+
+h4,
+body {
+    font-family: 'Arima Madurai';
+}
+
+section {
+    background-color: #fff6cf;
+    /* margin-top: -2%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.tabbed-area {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: flex-start;
+}
+
+.tabs {
+    margin: 3% 1% 0 0%;
+    padding: 0 5% 0 5%;
+    background-color: #ffe9a6;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.active {
+    background-color: #ffdb00;
+}
+
+.content {
+    background-color: #ffdb00;
+}
+
+;

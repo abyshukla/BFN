@@ -30,8 +30,6 @@
                         <a href="#eggSection" class="mdl-tabs__tab">Eggs</a>
                         <a href="#butterSection" class="mdl-tabs__tab">Butter</a>
                     </div>
-
-
                     <div class="mdl-tabs__panel is-active" id="milkSection">
                         <div class="mdl-grid grid-header">
                             <div class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">Item</div>
@@ -68,16 +66,6 @@
                                 <img id="tonMilAdd" src="res/plus-icon.svg" alt="decrease quantity" class="buttonSize">
                             </div>
                             <div id="tonMilTotal" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 0.00</div>
-                        </div>
-                        <div class="mdl-grid">
-                            <div id="lytMilItem" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">Full Toned Milk</div>
-                            <div id="lytMilPrice" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 26</div>
-                            <div class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">
-                                <img id="lytMilLess" src="res/minus-icon.svg" alt="increase quantity" class="buttonSize">
-                                <div id="lytMilQuantity">0</div>
-                                <img id="lytMilAdd" src="res/plus-icon.svg" alt="decrease quantity" class="buttonSize">
-                            </div>
-                            <div id="lytMilTotal" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 0.00</div>
                         </div>
                         <div class="mdl-grid">
                             <div class="mdl-cell">*&#189 l packs</div>
@@ -121,16 +109,6 @@
                             <div id="swcBrdTotal" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 0.00</div>
                         </div>
                         <div class="mdl-grid">
-                            <div id="wytBrdItem" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">White Bread</div>
-                            <div id="wytBrdPrice" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 20</div>
-                            <div class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">
-                                <img id="wytBrdLess" src="res/minus-icon.svg" alt="increase quantity" class="buttonSize">
-                                <div id="wytBrdQuantity">0</div>
-                                <img id="wytBrdAdd" src="res/plus-icon.svg" alt="decrease quantity" class="buttonSize">
-                            </div>
-                            <div id="wytBrdTotal" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 0.00</div>
-                        </div>
-                        <div class="mdl-grid">
                             <div id="mgnBrdItem" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">Multi-grain Bread</div>
                             <div id="mgnBrdPrice" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 50</div>
                             <div class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">
@@ -139,6 +117,16 @@
                                 <img id="mgnBrdAdd" src="res/plus-icon.svg" alt="decrease quantity" class="buttonSize">
                             </div>
                             <div id="mgnBrdTotal" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 0.00</div>
+                        </div>
+                        <div class="mdl-grid">
+                            <div id="wytBrdItem" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">White Bread</div>
+                            <div id="wytBrdPrice" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 20</div>
+                            <div class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">
+                                <img id="wytBrdLess" src="res/minus-icon.svg" alt="increase quantity" class="buttonSize">
+                                <div id="wytBrdQuantity">0</div>
+                                <img id="wytBrdAdd" src="res/plus-icon.svg" alt="decrease quantity" class="buttonSize">
+                            </div>
+                            <div id="wytBrdTotal" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 0.00</div>
                         </div>
                     </div>
                     <div class="mdl-tabs__panel" id="eggSection">
@@ -159,8 +147,8 @@
                             <div id="wytEggTotal" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 0.00</div>
                         </div>
                         <div class="buttonLine">
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="wytEggDozn">+ 12</button>
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="wytEggThty">+ 30</button>
+                            <button id="wytEggDozn" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">+ 12</button>
+                            <button id="wytEggThty" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">+ 30</button>
                         </div>
                     </div>
                     <div class="mdl-tabs__panel" id="butterSection">
@@ -201,14 +189,14 @@
                             <div id="lrgBtrTotal" class="mdl-cell mdl-cell--1-col-phone mdl-cell--2-col-tablet mdl-cell--3-col">&#8377 0.00</div>
                         </div>
                     </div>
+                    <div class="cartRow">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="addToCart">Add to Cart</button>
+                    </div>
                 </div>
             </div>
         </main>
-        <!-- <footer class="mdl-mini-footer">
-            <div class="mdl-mini-footer__left-section">
-                &copy; 2018
-            </div>
-        </footer> -->
+        <footer class="cartRow">
+        </footer>
     </div>
 </body>
 
